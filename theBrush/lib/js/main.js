@@ -1,6 +1,6 @@
-let button = document.querySelectorAll('document');
-let image = document.querySelectorAll('#rengar');
+let button = document.querySelector('body');
+let image = document.querySelector('img');
 
-button.onClick = function () {
+function buttonOnClick () {
     image.src = 'assets/rengar.png'
 }
